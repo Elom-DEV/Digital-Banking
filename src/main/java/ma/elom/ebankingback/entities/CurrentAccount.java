@@ -10,7 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue("CA")
+    @DiscriminatorValue("CA")
+
 public class CurrentAccount extends BankAccount {
     private double overdraft;
 }
